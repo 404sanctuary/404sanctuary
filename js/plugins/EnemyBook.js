@@ -343,5 +343,14 @@
         this.drawTextEx(enemy.meta.desc1, x, y + lineHeight * 0, descWidth);
         this.drawTextEx(enemy.meta.desc2, x, y + lineHeight * 1, descWidth);
     };
-
+_Scene_menu_createCommandWindow=Scene_Menu.prototype.createCommandWindow;
+Scene_Menu.prototype.createCommandWindow = function() {
+    _Scene_menu_createCommandWindow.call(this);
+    this._commandWindow.setHandler('EnemyBook', $gameTroop._interpreter.pluginCommand.bind(this,'EnemyBook',['open']));
+};
+_Window_MenuCommand_addOriginalCommands=Window_MenuCommand.prototype.addOriginalCommands;
+Window_MenuCommand.prototype.addOriginalCommands=function(){
+    _Window_MenuCommand_addOriginalCommands.apply(this,arguments)
+    this.addCommand('怪物图鉴', 'EnemyBook', true);
+}
 })();

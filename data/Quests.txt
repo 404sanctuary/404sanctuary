@@ -1,0 +1,64 @@
+﻿Text that appears outside of the <quest></quest> tags will not display anywhere and can be used for notes if required.
+
+// <quest id:Name of Quest|difficulty|catId>
+// OBJECTIVES separated by commas (leave this blank to not use objectives for a quest)
+// RESOLUTIONS separated by commas use | for line breaks (leave this blank if not using resolutions for a quest)
+// quest description
+// quest description
+// quest description
+// </quest>
+
+<quest 1:寻找蘑菇|1|0>
+找到 \c[2]难吃羊肚菌\c并带给\c[4]等一下,找到 \c[2]蓝瘦香菇\c并带给\c[4]等一下
+已经把蘑菇交给她了，或许我应该对她|制作的药水提高警惕？
+\c[4]等一下\c配置药水需要特殊的蘑菇，
+它们生长在阴凉的地方，绝对不要吃！
+</quest>
+
+
+<quest 2:狩猎毒兽·老鼠|2|1>
+去森林的西侧消灭老鼠
+老鼠和它们的首领已经被消灭了,老鼠已经被消灭了
+在去神殿寻找小说之前，\c[4]小礼物\c邀请
+我一同去森林的西边消灭一群散播瘟
+疫的老鼠。
+</quest>
+
+<quest 3:装饰大厅|1|1>
+找到适合移植的植物
+已经在大厅布置好了鲜花
+大厅的花盆还是空着的，也许在南部森
+林可以找到适合移植过来的植物。
+</quest>
+
+<quest 4:寻找目录|1|0>
+找到最熟悉避难所地形的ta,从猫那里获得目录并送给\c[4]悠久之翼\c
+目录已经找到，自动售货箱可以正常使|用了
+自动售货箱的目录不见了，不知道该去
+哪里找。谁最熟悉避难所地形呢？找ta
+帮忙吧。
+</quest>
+
+<quest 5:寻找小说|3|0>
+到达南方荒原的旧神殿,找到\c[2]《流放者的安魂曲》\c
+\c[2]《流放者的安魂曲》\c已找到
+\c[4]小礼物\c邀请我一起去荒原的旧神殿中
+找一本没写完的小说，路上也许会有
+点危险，要做好准备才行。
+</quest>
+
+<quest 6:修复眼镜Ⅰ|1|1>
+寻找修复长者眼镜需要的胶水
+胶水已使用，不过修复它是一个长期的|过程
+\c[4]悠久之翼\c正在修复一个长者眼镜，
+他需要\c[2]黑色史莱姆胶\c，森林里应该能
+遇见黑色史莱姆吧。
+</quest>
+
+<quest 7:击败前锋|3|0>
+击败河蝎军团的前锋
+河蝎军团的前锋已经被打败了
+河蝎军团的前锋已经侵入到森林中，
+尽快击败他们吧。如果需要休整，
+可以回避难所。
+</quest>
